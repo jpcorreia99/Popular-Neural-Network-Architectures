@@ -2,7 +2,7 @@
 Hand implementation of some of the most important and groundbreaking neural network architectures.
 This project was done as a way for me to get more familiar with the Keras Functonal API aswell as with different image processing techniques.
 
-#Architectures
+# Architectures
  - **[VGG16](#vgg16)**
  - **[ResNet50](#resnet50)**
  - **[Inception V3](#inception-v3)**
@@ -30,7 +30,7 @@ These connections are implemented in the ResNet50 via what's called a **Identity
 
 ![Identity block](ReadMe_images/identity_block.png)
 
-A slight variation of the identity block is the convolutional block where the shortcut path has a convlutional and a pooling layer. This layer is used to certify that the shape of the images in the main path is the same as the ones in the shortcut path.
+A slight variation of the identity block is the **convolutional block** where the shortcut path has a convlutional and a pooling layer. This layer is used to certify that the shape of the images in the main path is the same as the ones in the shortcut path.
 
 ![Convolutional block](ReadMe_images/resnet_conv_block.png)
 
@@ -48,15 +48,15 @@ The three modules are as follows :
 
   ##### Module A
   
-  ![Module A](ReadMe_images/Module A.png)
+  ![Module A](ReadMe_images/Module_A.png)
   
   ##### Module B
   
-  ![Module B](ReadMe_images/Module B.png)
+  ![Module B](ReadMe_images/Module_B.png)
   
   ##### Module C
   
-  ![Module C](ReadMe_images/Module C.png)
+  ![Module C](ReadMe_images/Module_C.png)
  
   ##### Grid Size Reduction
   
