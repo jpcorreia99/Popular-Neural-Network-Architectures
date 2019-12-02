@@ -16,7 +16,7 @@ This project was done as a way for me to get more familiar with the Keras Functo
   
   This is an extremely heavy architecture and, therefore, should not be used as a first resort.
   
-  Further reading can be found **[here](https://neurohive.io/en/popular-networks/vgg16/)**
+  Further reading can be found **[here](https://neurohive.io/en/popular-networks/vgg16/)**.
   
 ## ResNet50
 
@@ -38,7 +38,7 @@ The full architecture is presented in the following image:
 
 ![ResNet50](ReadMe_images/resnet.png)
 
-  Further reading can be found **[here](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)**
+  Further reading can be found **[here](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)**.
 
 ## Inception V3
 
@@ -64,13 +64,13 @@ The three modules are as follows :
   
   In other architectures, downsizing a feature map is either done by a Conv layer followed by a Max Pooling layer or a Max Pooling layer followed by a conv layer. This process either results in a loss of a lot of imformation or is too expensive.
   
-  To solve this problem, Inception V3 implement a ** grid size reduction** technique. 
+  To solve this problem, Inception V3 implement a **grid size reduction** technique. 
   
   Follwing this stategy, the feature maps either go through a conv layer or a max pooling layer and are concated in the end.
   
   ![Grid Size Reduction](ReadMe_images/grid_size_reduction.png)
   
-  Further reading can be found **[here](https://medium.com/@sh.tsang/review-inception-v3-1st-runner-up-image-classification-in-ilsvrc-2015-17915421f77c)**
+  Further reading can be found **[here](https://medium.com/@sh.tsang/review-inception-v3-1st-runner-up-image-classification-in-ilsvrc-2015-17915421f77c)**.
   
   
-Different architectures and their implementations can be found **[here](https://github.com/keras-team/keras-applications/tree/master/keras_applications)**
+Different architectures and their implementations can be found **[here](https://github.com/keras-team/keras-applications/tree/master/keras_applications)**.
